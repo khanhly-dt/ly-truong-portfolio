@@ -2,7 +2,9 @@
 
 Personal portfolio site for Khanh Ly Truong (Computer Science & Data Science, Concordia University).
 
-## Preview
+**Live site:** [https://khanhly-dt.github.io/ly-truong-portfolio/](https://khanhly-dt.github.io/ly-truong-portfolio/)
+
+## Preview locally
 
 Open `index.html` in a browser, or serve locally:
 
