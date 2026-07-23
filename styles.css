@@ -1,19 +1,19 @@
 :root {
-  --ink: #3a2a33;
-  --ink-soft: #6d5562;
-  --muted: #9a7f8c;
-  --mist: #fff7fa;
-  --blush: #ffe4ef;
-  --petal: #ffc2d6;
-  --rose: #e87aa0;
-  --rose-deep: #d4537e;
-  --berry: #b83d6b;
-  --champagne: #fff1f5;
-  --line: rgba(216, 83, 126, 0.16);
+  --ink: #4a2f3c;
+  --ink-soft: #7a5a6a;
+  --muted: #a88496;
+  --mist: #fff5f9;
+  --blush: #ffd6e7;
+  --petal: #ff9ec0;
+  --rose: #ff6fa0;
+  --rose-deep: #f04e86;
+  --berry: #e11d70;
+  --champagne: #fff0f6;
+  --line: rgba(240, 78, 134, 0.2);
   --surface: rgba(255, 252, 253, 0.78);
   --font-display: "Cormorant Garamond", Georgia, serif;
   --font-body: "Outfit", "Helvetica Neue", sans-serif;
-  --shadow-soft: 0 22px 50px rgba(184, 61, 107, 0.12);
+  --shadow-soft: 0 22px 50px rgba(225, 29, 112, 0.14);
   --header-h: 4.25rem;
   --radius-soft: 1.25rem;
 }
