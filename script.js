@@ -47,7 +47,7 @@ if (header) {
     () => {
       const y = window.scrollY;
       header.style.boxShadow =
-        y > 8 ? "0 10px 28px rgba(63, 106, 87, 0.08)" : "none";
+        y > 8 ? "0 10px 28px rgba(184, 61, 107, 0.1)" : "none";
     },
     { passive: true }
   );
