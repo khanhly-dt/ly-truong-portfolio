@@ -5,19 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Khanh Ly Truong — Computer Science & Data Science student at Concordia University. Portfolio of analytics, data engineering, and systems projects."
+      content="Khanh Ly Truong — Computer Science & Data Science student at Concordia University. Portfolio of Power BI, analytics, and systems projects with a wellness-inspired lens."
     />
     <title>Khanh Ly Truong — Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="atmosphere" aria-hidden="true">
+      <span class="orb orb-a"></span>
+      <span class="orb orb-b"></span>
+      <span class="orb orb-c"></span>
+      <span class="petal petal-1"></span>
+      <span class="petal petal-2"></span>
+      <span class="petal petal-3"></span>
+    </div>
 
     <header class="site-header">
       <a class="logo" href="#top">Khanh Ly Truong</a>
@@ -31,49 +40,73 @@
 
     <main id="main">
       <section class="hero" id="top">
+        <div class="hero-plane" aria-hidden="true">
+          <div class="hero-bloom"></div>
+          <div class="hero-wave"></div>
+          <svg class="hero-curve" viewBox="0 0 800 240" preserveAspectRatio="none">
+            <path d="M0 160 C 120 120, 200 40, 320 70 S 500 200, 620 140 S 740 40, 800 70" />
+          </svg>
+        </div>
+
         <div class="hero-copy">
           <p class="brand">Khanh Ly Truong</p>
-          <h1>Turning messy data into clear decisions.</h1>
+          <h1>Clarity from data — with a calm, wellness-minded touch.</h1>
           <p class="lede">
-            Computer Science &amp; Data Science student at Concordia University —
-            building dashboards, pipelines, and systems that make operations smarter.
+            Computer Science &amp; Data Science student at Concordia University.
+            I build dashboards and pipelines that help people see what matters.
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#projects">View projects</a>
             <a class="btn btn-ghost" href="mailto:khlytruong@gmail.com">Email me</a>
           </div>
         </div>
-        <div class="hero-visual" aria-hidden="true">
-          <div class="viz-plane">
-            <div class="viz-grid"></div>
-            <div class="viz-bars">
-              <span style="--h: 42%"></span>
-              <span style="--h: 68%"></span>
-              <span style="--h: 55%"></span>
-              <span style="--h: 88%"></span>
-              <span style="--h: 74%"></span>
-              <span style="--h: 96%"></span>
-              <span style="--h: 61%"></span>
-            </div>
-            <svg class="viz-line" viewBox="0 0 400 160" preserveAspectRatio="none">
-              <path
-                d="M0 120 C 40 110, 70 90, 100 95 S 160 40, 200 55 S 280 20, 320 35 S 370 10, 400 18"
-              />
-            </svg>
-            <div class="viz-nodes">
-              <i></i><i></i><i></i><i></i>
-            </div>
-          </div>
+      </section>
+
+      <section class="section featured" id="featured" data-reveal>
+        <div class="section-head">
+          <p class="eyebrow">Featured project</p>
+          <h2>YOU — Build the Trust in YOU</h2>
+          <p class="section-lede">
+            An executive Power BI dashboard for a fictional women’s wellness company —
+            tracking performance, coaching, programs, and member wellness in one view.
+          </p>
+        </div>
+
+        <figure class="featured-visual">
+          <img
+            src="assets/you-dashboard-preview.png"
+            alt="YOU Executive Performance Dashboard preview in Power BI"
+            width="1200"
+            height="694"
+          />
+        </figure>
+
+        <div class="featured-meta">
+          <ul class="tags">
+            <li>Power BI</li>
+            <li>Business Intelligence</li>
+            <li>Wellness Analytics</li>
+            <li>KPI Design</li>
+          </ul>
+          <a
+            class="text-link"
+            href="https://github.com/khanhly-dt/YOU-Wellness-PowerBI-Dashboard"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on GitHub
+            <span aria-hidden="true">→</span>
+          </a>
         </div>
       </section>
 
       <section class="section projects" id="projects">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Selected work</p>
-          <h2>Projects from analysis to engineering</h2>
+          <h2>From dashboards to data systems</h2>
           <p class="section-lede">
-            End-to-end work across Power BI dashboards, Excel analytics, lakehouse pipelines, and
-            networked systems — each linked to its GitHub repository.
+            Power BI, Excel analytics, lakehouse pipelines, and networked systems —
+            each linked to its GitHub repository.
           </p>
         </div>
 
@@ -90,10 +123,9 @@
             <div class="project-body">
               <h3>YOU — Executive Performance Dashboard</h3>
               <p>
-                Designed an interactive Power BI executive dashboard for a fictional women's
-                wellness company. Modeled multi-table operational and wellness data to track
-                revenue, active members, coaching sessions, program completion, and wellness trends
-                for leadership decision-making.
+                Designed an interactive Power BI executive dashboard for YOU, a fictional women’s
+                wellness brand. Modeled multi-table operational and wellness data to track revenue,
+                active members, coaching sessions, program completion, and wellness trends.
               </p>
               <a
                 class="text-link"
@@ -259,10 +291,10 @@
         <div class="about-grid" data-reveal>
           <div>
             <p class="eyebrow">About</p>
-            <h2>Analytical, reliable, collaborative</h2>
+            <h2>Thoughtful with data. Calm under pressure.</h2>
             <p class="section-lede">
               I care about clean data, clear KPIs, and systems that hold up when the volume gets real —
-              whether that’s a million retail rows in Excel or a Parquet lakehouse queried in DuckDB.
+              whether that’s a wellness executive dashboard in Power BI or a Parquet lakehouse queried in DuckDB.
             </p>
             <p class="languages">
               <strong>Languages:</strong> English (fluent) · French (intermediate)
@@ -271,7 +303,7 @@
           <div class="skills">
             <div>
               <h3>Analytics &amp; BI</h3>
-              <p>Excel · SQL · Python (Pandas, NumPy) · Dashboards · KPI development</p>
+              <p>Power BI · Excel · SQL · Python (Pandas, NumPy) · Dashboards · KPI development</p>
             </div>
             <div>
               <h3>Operations</h3>
@@ -287,9 +319,10 @@
 
       <section class="section contact" id="contact" data-reveal>
         <p class="eyebrow">Next step</p>
-        <h2>Let’s talk data, co-ops, and builds.</h2>
+        <h2>Let’s build something clear together.</h2>
         <p class="section-lede">
-          Open to co-op and internship opportunities in data analytics, data engineering, and related roles.
+          Open to co-op and internship opportunities in data analytics, business intelligence,
+          data engineering, and related roles.
         </p>
         <div class="contact-actions">
           <a class="btn btn-primary" href="mailto:khlytruong@gmail.com">khlytruong@gmail.com</a>

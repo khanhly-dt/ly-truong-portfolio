@@ -27,28 +27,27 @@ if ("IntersectionObserver" in window) {
 }
 
 const header = document.querySelector(".site-header");
-const heroVisual = document.querySelector(".viz-plane");
+const heroBloom = document.querySelector(".hero-bloom");
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-if (heroVisual && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+if (heroBloom && !reduceMotion) {
   window.addEventListener(
     "scroll",
     () => {
       const y = Math.min(window.scrollY, 420);
-      heroVisual.style.transform = `translateY(${y * 0.08}px)`;
+      heroBloom.style.transform = `translate3d(0, ${y * 0.06}px, 0) scale(1)`;
     },
     { passive: true }
   );
 }
 
 if (header) {
-  let lastY = 0;
   window.addEventListener(
     "scroll",
     () => {
       const y = window.scrollY;
       header.style.boxShadow =
-        y > 8 ? "0 8px 24px rgba(18, 32, 44, 0.06)" : "none";
-      lastY = y;
+        y > 8 ? "0 10px 28px rgba(63, 106, 87, 0.08)" : "none";
     },
     { passive: true }
   );
